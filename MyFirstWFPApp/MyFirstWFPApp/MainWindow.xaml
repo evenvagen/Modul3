@@ -1,0 +1,17 @@
+﻿<Window x:Class="MyFirstWFPApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MyFirstWFPApp"
+        mc:Ignorable="d"
+        Title="Counter" Height="911.914" Width="1271.672">
+    <Grid Margin="0,0,2,6" Background="{DynamicResource {x:Static SystemColors.MenuHighlightBrushKey}}" RenderTransformOrigin="0.504,0.498">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="376*"/>
+            <ColumnDefinition Width="887*"/>
+        </Grid.ColumnDefinitions>
+        <Button Content="" HorizontalAlignment="Left" Margin="141,177,0,0" VerticalAlignment="Top" Width="404" Height="184" Grid.ColumnSpan="2"/>
+
+    </Grid>
+</Window>
